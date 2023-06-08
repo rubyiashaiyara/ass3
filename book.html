@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const book1 = {
+        name: "depu 2",
+        author: "humayan",
+        price: 8.99,
+      };
+
+      const book2 = {
+        name: "To make",
+        author: "Harper Lee",
+        price: 14.99,
+      };
+
+      const books = [book1, book2];
+
+      for (let i = 0; i < books.length; i++) {
+        console.log("Book Number -", i + 1);
+        console.log("Name:", books[i].name);
+        console.log("Author:", books[i].author);
+        console.log("Price:", books[i].price);
+        console.log("------------------------");
+      }
+    </script>
+  </body>
+</html>
